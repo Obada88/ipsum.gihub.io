@@ -1,0 +1,369 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,900;1,200;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    max-width: 6000px;
+    
+    
+}
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+    background-color: #27ae60;
+ }
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+ }
+ 
+
+ /*start navbar*/
+.navbar{
+   background: #fff;
+   box-shadow: 10px 10px 10px #f7f7f7;
+}
+ .navbar-brand{
+   font-size: 5rem;
+   color: #130f40;
+ }
+ .nav-item .nav-link{
+   color: #666;
+   font-size: 1.5rem;
+   text-transform: capitalize;
+   margin: 0.5rem;
+ }
+ .nav-item .nav-link:hover{
+   color: #27ae60;
+ }
+ .icon .fa-brands{
+  margin: 0.5rem;
+  width: 45px;
+  height: 35px;
+  background: #f7f7f7;
+  text-align: center;
+  line-height:4vh;
+  font-size: 2rem;
+  border-radius: 5px;
+  color: #130f40;
+  padding: 0.5rem;
+ }
+
+ .icon .fa-brands:hover{
+   background: #27ae60;
+   color: #fff;
+ }
+/*end navbar*/
+
+/*start home*/
+
+.container{
+   margin-top: 15rem;
+}
+.box-content .title{
+   color: #27ae60;
+   font-size: 3rem;
+}
+.box-content h1{
+   color: #130f40;
+   font-size: 3rem;
+}
+.box-content p{
+color: #666;
+font-size: 1.5rem;
+
+}
+.box-content .btn{
+width: 150px;
+height: 40px;
+background: #27ae60;
+text-align: center;
+padding: 0.5rem;
+font-size: 1.5rem;
+border-radius: 10px;
+text-transform: capitalize;
+color: #fff;
+
+}
+.box-content .btn:hover{
+    background: #130f40;
+   color: #fff;
+}
+
+/*start about*/
+
+.about{
+   background: #f7f7f7;
+}
+.box-content-about{
+   margin-top: 3rem;
+}
+.imgaes img{
+   max-width: 100%;
+}
+.box-content-about h3{
+   margin-top: 2.5rem;
+   font-family: 'Satisfy', cursive;
+   color: #27ae60;
+   font-size: 3rem;
+}
+
+.box-content-about h1{
+   color: #130f40;
+   font-size: 3rem;
+   padding-top: 1rem;
+}
+.box-content-about p{
+   font-size: 1.5rem;
+   color: #666;
+   padding-top: 1rem;
+}
+.box-content-about .btn{
+ width: 150px; 
+height: 40px;
+background: #27ae60;
+text-align: center;
+padding: 0.5rem;
+font-size: 1.5rem;
+border-radius: 10px;
+text-transform: capitalize;
+color: #fff;
+
+}
+
+.box-content-about .btn:hover{
+   background: #130f40;
+  color: #fff;
+}
+
+.services span {
+text-transform: capitalize;
+color: #130f40;
+font-size: 2.5rem;
+margin-left: 1rem;
+display: flex;
+flex-direction: column;
+padding: 0.5rem;
+  
+}
+/*end about*/
+
+/*start popluar*/
+.title-popular {
+   font-family: 'Satisfy', cursive;
+   color: #27ae60;
+}
+.popilar-title {
+   color: #130f40;
+   font-size: 3rem;
+   text-transform: capitalize;
+}
+.content-box-pop h3{
+   color: #130f40;
+   font-size: 2rem;
+}
+.content-box-pop span i{
+   color: yellow;
+   font-size: 2rem;
+   margin-top: 1.5rem;
+}
+.content-box-pop .price{
+   font-size: 2rem;
+   margin-top: 1.5rem;
+
+}
+.content-box-pop .btn{
+   width: 150px; 
+height: 40px;
+background: #27ae60;
+text-align: center;
+padding: 1rem;
+font-size: 1.5rem;
+border-radius: 10px;
+text-transform: capitalize;
+color: #fff;
+margin-top: 1.5rem;
+
+}
+.content-box-pop .btn:hover{
+   background: #130f40;
+   color: #fff;
+}
+.food-1 
+{
+   background: #ddd;
+   height: 450px;
+   border-radius: 10px;
+   
+}
+/*end popular*/
+
+
+/*start blogs*/
+
+.bolg{
+   max-width: 100%;
+   background: #ddd;
+   transition: 0.2s;
+}
+.bolg:hover{
+transform:translate(0.5rem);
+}
+.box-content-blog{
+   background: #ddd;
+}
+.calendar{
+   position: relative;
+  right:14rem;
+  top: 3rem;
+  background: #ddd;
+  width: 300px;
+  height: 40px;
+  padding: 1rem;
+  z-index: 1;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #130f40;
+  transition: 0.2s;
+  transform: translateX(0rem);
+  opacity: 0;
+}
+.calendar:hover{
+ transform: translateX(0.5rem);
+opacity: 1;
+}
+
+.box-content-blog a{
+   color: #27ae60;
+   margin: 0.5rem;
+   font-size: 1.5rem;
+   margin-top: 1.5rem;
+}
+.box-content-blog a:hover{
+   color: #130f40;
+}
+.box-content-blog h3{
+   margin-top: 1.5rem;
+   color: #130f40;
+   font-size: 2.5rem;
+}
+.box-content-blog p{
+   font-size: 1.5rem;
+}
+.box-content-blog .btn{
+   width: 150px; 
+   height: 40px;
+   background: #27ae60;
+   text-align: center;
+   padding: 1rem;
+   font-size: 1.5rem;
+   border-radius: 10px;
+   text-transform: capitalize;
+   color: #fff;
+   margin-bottom: 1.5rem;
+   margin-left: 1rem;
+}
+.box-content-blog .btn:hover{
+   background: #130f40;
+   color: #fff;
+}
+input{
+   display: flex;
+   flex-direction: column;
+   padding-right: 25rem;
+   height: 30px;
+   margin-top: 2.5rem;
+   background: #f7f7f7;
+   border: 1px solid #f7f7f7;
+   color: #130f40;
+   font-size: 3rem;
+   border-radius: 2px;
+  
+}
+input,textarea:focus{
+  outline: none;
+}
+label{
+   font-size: 1.5rem;
+   text-transform: capitalize;
+   
+
+}
+textarea{
+   margin-top: 2.5rem;
+   border-radius: 5px;
+   color: #130f40;
+}
+input::placeholder{
+   font-size: 1.3rem;
+   text-transform: capitalize;
+}
+textarea::placeholder{
+   font-size: 1.3rem;
+   text-transform: capitalize;
+   
+}
+
+
+/*start footer*/
+.box-content-footer h1{
+   color: #130f40;
+   font-size: 3rem;
+   text-transform: capitalize;
+}
+
+.box-content-footer a  {
+   display: flex;
+   flex-direction: column;
+   color: #27ae60;
+   font-size: 1.5rem;
+   text-decoration: none;
+   margin-top: 1.5rem;
+   transition: 0.2s;
+   text-transform: capitalize;
+}
+.box-content-footer span{
+   display: flex;
+   flex-direction: column;
+   
+   font-size: 1.5rem;
+   text-decoration: none;
+   margin-top: 1.5rem;
+   transition: 0.2s;
+   text-transform: capitalize;
+}
+
+.box-content-footer a:hover{
+   color: #130f40;
+   transform: translateX(1rem);
+ 
+}
+
+
+
+@media (  max-width: 768px){
+   input{
+      padding-right: 15rem;
+   }
+   textarea{
+      width: 297px;
+   }
+   .calendar{
+      right: 9rem;
+   }
+}
